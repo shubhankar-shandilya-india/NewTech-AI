@@ -1,38 +1,4 @@
 
-// import React, { useEffect } from 'react';
-
-// const ContactUs = () => {
-//   useEffect(() => {
-//     if (!document.getElementById("sheetdb_snippets_script")) {
-//       const script = document.createElement("script");
-//       script.id = "sheetdb_snippets_script";
-//       script.src = "https://sheetdb.io/snippets.js";
-//       script.type = "module";
-//       document.body.appendChild(script);
-//     }
-//   }, []);
-
-//   return (
-//     <div className='text-white flex flex-col items-center'>
-//       <style>
-//         {`
-//           .sheetdb-form label {
-//               color: white;
-//             }
-//         `}
-//       </style>
-//       <div className='pb-8 flex mt-7 pt-7 text-white text-2xl font-light sm:leading-none leading-[1.1] sm:text-4xl xl:text-[60px] tracking-[-0.89px] text-center '>Contact Us</div>
-//       <sheetdb-form
-//         api-id='3xgzo13mgoces'
-//         fields='[{"visable":"1","name":"Name","label":"Name","placeholder":"","type":"text","required":"","options":""},{"visable":"1","name":"Email","label":"Email","placeholder":"","type":"text","required":"","options":""},{"visable":"1","name":"Phone Number","label":"Phone Number","placeholder":"","type":"text","required":"","options":""},{"visable":"1","name":"Resume Drive Link","label":"Resume Drive Link","placeholder":"","type":"text","required":"","options":""},{"visable":"1","name":"LinkedIn Profile URL","label":"LinkedIn Profile URL","placeholder":"","type":"text","required":"","options":""}]'
-//         config='{"justifyContent":"center","width":"w-700px","submitLabel":"Submit","successMessage":"Thank you.","redirectUrl":"","background":"transparent"}'
-//       ></sheetdb-form>
-//     </div>
-//   );
-// };
-
-// export default ContactUs;
-
 import React, { useEffect } from 'react';
 
 const ContactUs = () => {

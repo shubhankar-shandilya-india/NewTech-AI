@@ -3,15 +3,6 @@ import React, { useState, useEffect } from 'react';
 const Hero = () => {
     const texts = ['Government AI', 'Generative AI', 'Automotive AI'];
     const [textIndex, setTextIndex] = useState(0);
-
-    const data = {
-        name: 'John Doe',
-        designation: 'Software Engineer',
-        image: '/path/to/image.jpg',
-        github: 'https://github.com',
-        linkedin: 'https://linkedin.com',
-        variant: 'faculty' // or any other variant you want to pass
-    };
     useEffect(() => {
         const interval = setInterval(() => {
             setTextIndex((textIndex + 1) % texts.length);
