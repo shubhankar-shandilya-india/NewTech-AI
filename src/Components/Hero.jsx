@@ -12,7 +12,7 @@ const Hero = () => {
     }, [textIndex, texts.length]);
 
     return (
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center mb-8 pb-8'>
             <h1 className="flex mt-7 pt-7 text-white text-4xl font-light sm:leading-none leading-[1.1] sm:text-6xl xl:text-[89px] tracking-[-0.89px] text-center ">
                 <br />
                 <span className="flex flex-col items-center">

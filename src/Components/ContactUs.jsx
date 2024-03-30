@@ -14,7 +14,7 @@ const ContactUs = () => {
   return (
     <div className='w-full flex justify-center'>
       <div className='flex w-[80vw] flex-col items-center gap-4 text-white'>
-        <div className='cursor-pointer mt-7 pt-7 text-2xl font-light leading-[1.1] text-center md:text-4xl xl:text-[60px]'>Contact Us</div>
+        <div className='cursor-pointer mt-7 pt-7 text-2xl font-light leading-[1.1] text-center md:text-4xl xl:text-[60px]'>Register With Us</div>
         <div className="w-full max-w-screen-sm mx-auto">
           <sheetdb-form
             api-id='ajqbbqnndohn9'
