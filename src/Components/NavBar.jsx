@@ -4,9 +4,9 @@ import { useNavigate } from 'react-router-dom';
 const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     let navigate = useNavigate();
-    const clicked = () => (
-        navigate(`/contactus`)
-    )
+    const clicked = () => {
+        navigate(`/contactus`);
+    };
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
@@ -14,7 +14,6 @@ const NavBar = () => {
     return (
         <div className='flex justify-between items-center w-full font-aeonik bg-[#000000bb] p-2 h-[70px] text-white'>
             <a href="/"><img className='w-14 h-14 mx-6 justify-start' src="./logo.png" alt="Logo" /></a>
-
 
             <div className='sm:hidden cursor-pointer' onClick={toggleMenu}>
                 <svg className='mx-6 w-8 h-8 fill-current' viewBox='0 0 24 24'>
@@ -29,19 +28,18 @@ const NavBar = () => {
                 <a href='/'>Home</a >
                 <a href='#services'>Services</a >
                 <a href='#aboutus'>About Us</a >
-                <a href='#contactus'>Contact Us</a >
+                <a  href='#contactus'>Contact Us</a >
             </div>
             <div className='mx-6 hidden sm:flex gap-3'>
-                <button className='px-4 flex items-center glow-on-hover text-xs sm:text-sm md:text-base '>Get Started</button>
+                <button onClick={clicked} className='px-4 flex items-center glow-on-hover text-xs sm:text-sm md:text-base '>Get Started</button>
             </div>
-            <div className={`sm:hidden h-full bg-opacity-100 ${isMenuOpen ? 'flex flex-col bg-black p-3 absolute w-full top-20' : 'hidden'} gap-[10px]`}>
+            <div className={`sm:hidden h-full  ${isMenuOpen ? 'flex flex-col bg-black p-3 absolute w-full top-20' : 'hidden'} gap-[10px]`}>
                 <button href='/'>Home</button>
                 <button href='#services'>Services</button>
                 <button href='#aboutus'>About Us</button>
                 <button href='#contactus'>Contact Us</button>
-                <button  onClick={clicked} className='h-[8vh] glow-on-hover'>Get Started</button>
+                <button className='h-[8vh] glow-on-hover'>Get Started</button>
             </div>
-
         </div>
     );
 };
