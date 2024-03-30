@@ -4,8 +4,8 @@ import { useNavigate } from 'react-router-dom';
 const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     let navigate = useNavigate();
-    const clicked = () => {
-        navigate(`/contactus`);
+    const clicked = (varr) => {
+        navigate(`/${varr}`);
     };
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -31,14 +31,14 @@ const NavBar = () => {
                 <a  href='#contactus'>Contact Us</a >
             </div>
             <div className='mx-6 hidden sm:flex gap-3'>
-                <button onClick={clicked} className='px-4 flex items-center glow-on-hover text-xs sm:text-sm md:text-base '>Get Started</button>
+                <button onClick={()=>clicked("contactus")} className='px-4 flex items-center glow-on-hover text-xs sm:text-sm md:text-base '>Get Started</button>
             </div>
-            <div className={`sm:hidden h-full  ${isMenuOpen ? 'flex flex-col bg-black p-3 absolute w-full top-20' : 'hidden'} gap-[10px]`}>
-                <button href='/'>Home</button>
-                <button href='#services'>Services</button>
-                <button href='#aboutus'>About Us</button>
-                <button href='#contactus'>Contact Us</button>
-                <button className='h-[8vh] glow-on-hover'>Get Started</button>
+            <div className={`sm:hidden   ${isMenuOpen ? 'flex flex-col bg-black p-3 absolute w-full top-20' : 'hidden'} gap-[10px]`}>
+                <a onClick={()=>setIsMenuOpen(!isMenuOpen)} className='text-center' href='/'>Home</a>
+                <a onClick={()=>setIsMenuOpen(!isMenuOpen)} className='text-center' href='#services'>Services</a>
+                <a onClick={()=>setIsMenuOpen(!isMenuOpen)} className='text-center' href='#aboutus'>About Us</a>
+                <a onClick={()=>setIsMenuOpen(!isMenuOpen)} className='text-center' href='#contactus'>Contact Us</a>
+                <button onClick={()=>clicked("contactus")} className='h-[8vh] glow-on-hover'>Get Started</button>
             </div>
         </div>
     );

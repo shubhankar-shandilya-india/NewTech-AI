@@ -12,19 +12,19 @@ const Footer = () => {
                                 <h2 className="text-neutral-400 text-xs sm:text-sm font-medium mb-4 md:mb-6 uppercase tracking-widest">Company</h2>
                                 <ul>
                                     <li className="flex mb-3 text-xs md:text-sm md:mb-3">
-                                        <a className="font-normal text-neutral-400 hover:text-white" href="/about">About</a>
+                                        <a className="font-normal text-neutral-400 hover:text-white" href="/">About</a>
                                     </li>
                                     <li className="flex mb-3 text-xs md:text-sm md:mb-3">
-                                        <a className="font-normal text-neutral-400 hover:text-white" href="/careers">Careers</a>
+                                        <a className="font-normal text-neutral-400 hover:text-white" href="/">Careers</a>
                                     </li>
                                     <li className="flex mb-3 text-xs md:text-sm md:mb-3">
-                                        <a className="font-normal text-neutral-400 hover:text-white" href="/security">Security</a>
+                                        <a className="font-normal text-neutral-400 hover:text-white" href="/">Security</a>
                                     </li>
                                     <li className="flex mb-3 text-xs md:text-sm md:mb-3">
-                                        <a className="font-normal text-neutral-400 hover:text-white" href="/legal/terms">Terms</a>
+                                        <a className="font-normal text-neutral-400 hover:text-white" href="/">Terms</a>
                                     </li>
                                     <li className="flex mb-3 text-xs md:text-sm md:mb-3">
-                                        <a className="font-normal text-neutral-400 hover:text-white" href="/legal/privacy">Privacy</a>
+                                        <a className="font-normal text-neutral-400 hover:text-white" href="/">Privacy</a>
                                     </li>
                                 </ul>
                             </li>
@@ -48,8 +48,8 @@ const Footer = () => {
                     <div className="flex text-xs md:text-sm justify-between flex-col md:flex-row pt-6 md:mt-12 pb-12 border-neutral-800 border-t">
                         <span className="text-neutral-400">Copyright © 2024 Kalitech AI, Inc. All rights reserved.</span>
                         <span className="mt-4 md:mt-0 text-neutral-400">
-                            <a className="text-neutral-400 font-normal" href="/legal/terms">Terms of Use</a> &amp;&nbsp;
-                            <a className="text-neutral-400 font-normal" href="/legal/privacy">Privacy Policy</a>
+                            <a className="text-neutral-400 font-normal" href="/">Terms of Use</a> &amp;&nbsp;
+                            <a className="text-neutral-400 font-normal" href="/">Privacy Policy</a>
                         </span>
                     </div>
                 </div>
