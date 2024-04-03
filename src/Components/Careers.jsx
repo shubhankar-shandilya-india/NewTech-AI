@@ -18,7 +18,7 @@ const Careers = () => {
                 <p className="text-xl mb-6">Shape the Future with KaliTech AI</p>
                 <p className="mb-6">At KaliTech AI, innovation and creativity lead the way to the future. We're on the lookout for trailblazers, problem-solvers, and tech visionaries who are ready to dive into the world of artificial intelligence and make a significant impact.</p>
                 <h3 className="text-3xl font-semibold mb-4">Why KaliTech AI?</h3>
-                <ul className="list-disc pl-6 mb-6">
+                <ul className="list-none pl-6 mb-6">
                     <li>Innovation at Core: Work on groundbreaking projects that challenge the status quo.</li>
                     <li>Growth & Learning: With continuous opportunities for professional development, you're always climbing higher.</li>
                     <li>Impactful Work: See the tangible impact of your work on businesses and communities.</li>
@@ -26,7 +26,7 @@ const Careers = () => {
                 </ul>
                 <h3 className="text-3xl font-semibold mb-4">Current Openings</h3>
                 <p className="mb-6">We have a variety of roles open for passionate individuals looking to make their mark in AI and tech. Explore opportunities in:</p>
-                <ul className="list-disc pl-6 mb-6">
+                <ul className="list-none pl-6 mb-6">
                     <li>AI and Machine Learning</li>
                     <li>Software Development</li>
                     <li>Project Management</li>
