@@ -37,7 +37,7 @@ const Careers = () => {
                 <h3 className="text-3xl font-semibold mb-4">Register with Us</h3>
                 <p>Are you ready to start a journey where your work is about creating a smarter tomorrow? Fill out our registration form and let's explore how your talent can align with the innovative world of KaliTech AI.</p>
             </div>
-            <button onClick={()=>clicked("contactus")} className='px-4 flex items-center glow-on-hover text-xs sm:text-sm md:text-base '>Get Started</button>
+            <button onClick={()=>clicked("contactus")} className='w-[15vw] h-[50px] justify-center px-4 flex items-center glow-on-hover text-xs sm:text-sm md:text-base '>Get Started</button>
         </div>
     );
 }
