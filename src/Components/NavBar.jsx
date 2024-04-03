@@ -27,6 +27,7 @@ const NavBar = () => {
             <div className='hidden sm:flex justify-center gap-[3vw]'>
                 <a href='/'>Home</a >
                 <a href='#services'>Services</a >
+                <a href='#careers'>Careers</a >
                 <a href='#aboutus'>About Us</a >
                 <a  href='#contactus'>Contact Us</a >
             </div>
@@ -36,6 +37,7 @@ const NavBar = () => {
             <div className={`sm:hidden   ${isMenuOpen ? 'flex flex-col bg-black p-3 absolute w-full top-20' : 'hidden'} gap-[10px]`}>
                 <a onClick={()=>setIsMenuOpen(!isMenuOpen)} className='text-center' href='/'>Home</a>
                 <a onClick={()=>setIsMenuOpen(!isMenuOpen)} className='text-center' href='#services'>Services</a>
+                <a onClick={()=>setIsMenuOpen(!isMenuOpen)} className='text-center' href='#careers'>Careers</a>
                 <a onClick={()=>setIsMenuOpen(!isMenuOpen)} className='text-center' href='#aboutus'>About Us</a>
                 <a onClick={()=>setIsMenuOpen(!isMenuOpen)} className='text-center' href='#contactus'>Contact Us</a>
                 <button onClick={()=>clicked("contactus")} className='h-[8vh] glow-on-hover'>Get Started</button>

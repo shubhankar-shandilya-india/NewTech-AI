@@ -6,7 +6,7 @@ const AboutUs = () => {
     return (
         <div className='mb-8 pb-8 text-white flex flex-col items-center justify-center' id='aboutus'>
             <div className='flex mt-7 pt-7 text-white text-2xl font-light sm:leading-none leading-[1.1] sm:text-4xl xl:text-[60px] tracking-[-0.89px] text-center '>About Us</div>
-            <div className="pt-8 rounded-lg relative w-80vw mx-auto flex flex-col items-center">
+            <div className="pt-8 rounded-lg relative  mx-auto flex flex-col items-center">
                 <img src="./bb.jpg" alt="Bombay" className="rounded-lg w-[80%]  h-auto" />
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-black"></div>
             </div>
