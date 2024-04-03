@@ -40,7 +40,7 @@ const NavBar = () => {
                 <a onClick={()=>setIsMenuOpen(!isMenuOpen)} className='text-center' href='#careers'>Careers</a>
                 <a onClick={()=>setIsMenuOpen(!isMenuOpen)} className='text-center' href='#aboutus'>About Us</a>
                 <a onClick={()=>setIsMenuOpen(!isMenuOpen)} className='text-center' href='#contactus'>Contact Us</a>
-                <button onClick={()=>clicked("contactus")} className='h-[8vh] glow-on-hover'>Get Started</button>
+                <button onClick={()=>clicked("contactus")} className='h-[8vh] glow-on-hover'>Register</button>
             </div>
         </div>
     );
