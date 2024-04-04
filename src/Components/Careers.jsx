@@ -21,19 +21,17 @@ const Careers = () => {
                 <p className="text-sm mb-2">Shape the Future with KaliTech AI</p>
                 <p className="text-sm mb-8 pb-8">At KaliTech AI, innovation and creativity lead the way to the future. We're on the lookout for trailblazers, problem-solvers, and tech visionaries who are ready to dive into the world of artificial intelligence and make a significant impact.</p>
                 <h3 className="text-4xl font-semibold mb-6">Why KaliTech AI?</h3>
-                <div className="px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-center gap-4 lg:gap-8 justify-items-center mb-6">
+                <div className="px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-center gap-4 lg:gap-8 justify-items-center mb-8 pb-4">
                     {servicesData.items.map((data, index) => (
                         <Card key={index} title={data.title} description={data.description} wid="0" />
                     ))}
                 </div>
-                <h3 className="text-4xl font-semibold mb-6">Current Openings</h3>
+                <h3 className="text-4xl font-semibold mb-8">Current Openings</h3>
                 <div onClick={() => clicked("contactus")}  className="cursor-pointer px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-center gap-4 lg:gap-8 justify-items-center">
                     {servicesData.jobs.map((data, index) => (
                         <Card  className='cursor-pointer' key={index} title={data.title} description={data.description} wid="0" />
                     ))}
                 </div>
-                {/* <h3 className="text-3xl font-semibold mb-4">Register with Us</h3> */}
-                {/* <p>Are you ready to start a journey where your work is about creating a smarter tomorrow? Fill out our registration form and let's explore how your talent can align with the innovative world of KaliTech AI.</p> */}
             </div>
             <button  className='w-[15vw] h-[50px] justify-center px-4 flex items-center glow-on-hover text-xs sm:text-sm md:text-base '>Apply Now</button>
         </div>
