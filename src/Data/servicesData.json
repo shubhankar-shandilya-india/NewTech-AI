@@ -28,6 +28,46 @@
         "title": "Consulting services",
         "description": "Transform your enterprise with KaliTech AI's Consulting Services. Our domain expertise extends to crafting intelligent AI applications and robust systems that are not only resilient but are also designed to scale with your business growth. Engage with us to refine your technological strategies, optimize your IT investments, and propel your business towards a future defined by innovation and efficiency."
       }
+    ],
+    "items": [
+      {
+        "title": "Innovation at Core",
+        "description": "Work on groundbreaking projects that challenge the status quo."
+      },
+      {
+        "title": "Growth & Learning",
+        "description": "With continuous opportunities for professional development, you're always climbing higher."
+      },
+      {
+        "title": "Impactful Work",
+        "description": "See the tangible impact of your work on businesses and communities."
+      },
+      {
+        "title": "Collaborative Culture",
+        "description": "Join a team where every voice matters, and collaboration fuels progress."
+      }
+    ],
+    "jobs": [
+      {
+        "title": "AI and Machine Learning",
+        "description": "Explore the frontier of artificial intelligence and machine learning technologies."
+      },
+      {
+        "title": "Software Development",
+        "description": "Contribute to building cutting-edge software solutions for various industries."
+      },
+      {
+        "title": "Project Management",
+        "description": "Oversee the successful execution of projects from inception to completion."
+      },
+      {
+        "title": "Sales and Marketing",
+        "description": "Drive growth by effectively promoting and selling our products and services."
+      },
+      {
+        "title": "IT and Systems Support",
+        "description": "Provide technical assistance and maintain the smooth operation of IT systems."
+      }
     ]
   }
   
