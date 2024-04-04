@@ -50,23 +50,23 @@
     "jobs": [
       {
         "title": "AI and Machine Learning",
-        "description": "Explore the frontier of artificial intelligence and machine learning technologies."
+        "description": ""
       },
       {
         "title": "Software Development",
-        "description": "Contribute to building cutting-edge software solutions for various industries."
+        "description": ""
       },
       {
         "title": "Project Management",
-        "description": "Oversee the successful execution of projects from inception to completion."
+        "description": ""
       },
       {
         "title": "Sales and Marketing",
-        "description": "Drive growth by effectively promoting and selling our products and services."
+        "description": ""
       },
       {
         "title": "IT and Systems Support",
-        "description": "Provide technical assistance and maintain the smooth operation of IT systems."
+        "description": ""
       }
     ]
   }
