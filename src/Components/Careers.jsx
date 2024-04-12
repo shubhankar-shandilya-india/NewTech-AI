@@ -1,14 +1,5 @@
 import React from 'react';
-import servicesData from '../Data/servicesData.json';
-
-import { useNavigate } from 'react-router-dom';
-import Card from './Card';
-
 const Careers = () => {
-    let navigate = useNavigate();
-    const clicked = (varr) => {
-        navigate(`/${varr}`);
-    };
     return (
         <div className='mb-8 pb-8 text-white flex flex-col items-center justify-center' id='careers'>
             <div className='flex mt-7 pt-7 text-white text-2xl font-light sm:leading-none leading-[1.1] sm:text-4xl xl:text-[60px] tracking-[-0.89px] text-center '>Careers</div>
