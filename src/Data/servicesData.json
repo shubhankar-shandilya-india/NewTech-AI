@@ -2,7 +2,7 @@
     "services": [
       {
         "title": "Innovation Incubation",
-        "description": "Explore a transformative journey with KaliTech AI's Innovation Incubation programs. Here, we go beyond conventional training, offering a supportive environment for individuals with innovative ideas. Our focus is on providing the necessary guidance and resources to nurture and develop these concepts into practical, impactful solutions. Join us in a practical and results-oriented approach to fostering growth and innovation in the field of artificial intelligence."
+        "description": "Explore a transformative journey with KaliTech AI's Innovation Incubation programs. Here, we go beyond conventional training, offering a supportive environment for individuals with innovative ideas. Our focus is on providing the necessary guidance and resources to nurture and develop these concepts into practical"
       },
       {
         "title": "Custom Automation Solutions",
@@ -23,10 +23,6 @@
       {
         "title": "Freelancer Talent Agency",
         "description": "Connect with top-tier tech talent for your projects through KaliTech AI's Freelancer Talent Agency. Whether you need a team for a large-scale project or specialized individuals for niche tasks, our vast network is your resource for skilled freelancers ready to tackle your challenges."
-      },
-      {
-        "title": "Consulting services",
-        "description": "Transform your enterprise with KaliTech AI's Consulting Services. Our domain expertise extends to crafting intelligent AI applications and robust systems that are not only resilient but are also designed to scale with your business growth. Engage with us to refine your technological strategies, optimize your IT investments, and propel your business towards a future defined by innovation and efficiency."
       }
     ],
     "items": [
