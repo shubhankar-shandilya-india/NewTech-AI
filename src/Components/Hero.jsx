@@ -21,18 +21,6 @@ const Hero = () => {
                 opacity: 0,
                 stagger: 0.3,
             })
-            tl.from(".scroll", {
-                opacity: 0,
-                scale: 0,
-            })
-
-            tl.from(".scroll", {
-                y: 20,
-                duration: 0.8,
-                repeat: -1,
-                yoyo: true,
-
-            })
 
 
         }, app);
@@ -42,14 +30,14 @@ const Hero = () => {
     }, [])
     return (
         <div className='flex flex-col items-center mb-8 pb-8' ref={app}>
-            <h1 className="flex mt-4 pt-4 text-white text-4xl font-light sm:leading-none leading-[1.1] sm:text-6xl xl:text-[89px] tracking-[-0.89px] text-center ">
+            <h1 className="flex mt-4 pt-8 text-white text-4xl font-light sm:leading-none leading-[1.1] sm:text-6xl xl:text-[89px] tracking-[-0.89px] text-center ">
                 <br />
                 <span className="flex flex-col items-center">
                     <div className="flex flex-col gap-[2vw]">
                         <div className='h1'>Revolutionize Your World</div>
                         <div className='h1 flex gap-[2vw] justify-center'>
                             <span>with</span>
-                            <span className='entrance'>KaliTech AI</span>
+                            <span className='entrance'>NewTech AI</span>
 
                         </div>
                     </div>
@@ -61,7 +49,6 @@ const Hero = () => {
                 <button className='h1 px-4 flex items-center glow-on-hover text-xs sm:text-sm md:text-base '><a href="#services">Explore AI Solutions →</a></button>
                 <button className='h1 px-4 flex items-center glow-on-hover text-xs sm:text-sm md:text-base '> <a href="#contactus">Get Started Today →</a></button>
             </div>
-            <div className='scroll w-full  text-center absolute bottom-[6%] text-xs text-white'>Scroll down ↓</div>
         </div>
     );
 };
