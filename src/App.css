@@ -79,7 +79,7 @@ body {
 
 .entrance,
 .exit {
-    background: linear-gradient(135deg, #ff0000 20%, #FFD700 , #ff0000 , #FFD700  );
+    background: linear-gradient(50deg, #714dff, #9c83ff 31.28%, #e151ff 77.97%, #fff759 95.64%);
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
