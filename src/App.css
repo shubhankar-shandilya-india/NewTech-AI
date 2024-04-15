@@ -74,13 +74,13 @@ body {
         background-position: 0 0;
     }
 }
-
-/* linear-gradient(50deg, #64bcd9, #9c83ff 31.28%, #e151ff 77.97%, #fc0000 95.64%); */
-
 .entrance,
 .exit {
     background: linear-gradient(50deg, #714dff, #9c83ff 31.28%, #e151ff 77.97%, #fff759 95.64%);
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.image{
+    filter: invert(100%);
 }

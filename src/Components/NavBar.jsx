@@ -33,7 +33,7 @@ const NavBar = () => {
     }, [])
     return (
         <div className='flex justify-between items-center w-full font-aeonik bg-[#000000bb] p-2 h-[70px] text-white' ref={app}>
-            <a  href="/"><img className='image w-14 h-14 mx-6 justify-start' src="./logo.png" alt="Logo" /></a>
+            <a  href="/"><img className='image w-14 h-14 mx-6 justify-start' src="./ll.png" alt="Logo" /></a>
 
             <div className='sm:hidden cursor-pointer' onClick={toggleMenu}>
                 <svg className='mx-6 w-8 h-8 fill-current' viewBox='0 0 24 24'>

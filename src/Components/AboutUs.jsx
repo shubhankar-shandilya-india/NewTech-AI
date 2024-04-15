@@ -2,7 +2,7 @@ import React from 'react'
 import { MdLocationPin } from "react-icons/md";
 
 const AboutUs = () => {
-    let aboutus = "At KaliTech AI, we bring the future of artificial intelligence into today's business landscape. Founded in Mumbai in 2024, our mission is to harness the transformative power of AI to revolutionize industries. We are a collective of innovators, thinkers, and builders dedicated to creating intelligent solutions that elevate business operations, drive efficiency, and unlock new potentials. Our commitment to blending cutting-edge technology with strategic insight positions us as a leading force in the realm of AI development and IT consulting for startups and mid-scale businesses.";
+    let aboutus = "At NewTech ai, we bring the future of artificial intelligence into today's business landscape. Founded in Mumbai in 2024, our mission is to harness the transformative power of AI to revolutionize industries. We are a collective of innovators, thinkers, and builders dedicated to creating intelligent solutions that elevate business operations, drive efficiency, and unlock new potentials. Our commitment to blending cutting-edge technology with strategic insight positions us as a leading force in the realm of AI development and IT consulting for startups and mid-scale businesses.";
     return (
         <div className='mb-8 pb-8 text-white flex flex-col items-center justify-center' id='aboutus'>
             <div className='flex mt-7 pt-7 text-white text-2xl font-light sm:leading-none leading-[1.1] sm:text-4xl xl:text-[60px] tracking-[-0.89px] text-center '>About Us</div>
