@@ -54,7 +54,7 @@ const NavBar = () => {
             <div className='mx-6 hidden sm:flex gap-3'>
                 <button onClick={() => clicked("contactus")} className='bt1 px-4 flex items-center glow-on-hover text-xs sm:text-sm md:text-base '>Register</button>
             </div>
-            <div className={`sm:hidden   ${isMenuOpen ? 'flex flex-col bg-black p-3 absolute w-full top-20' : 'hidden'} gap-[10px]`}>
+            <div className={`sm:hidden   ${isMenuOpen ? 'flex flex-col bg-black p-3 absolute w-full top-20 z-10' : 'hidden'} gap-[10px]`}>
                 <a onClick={() => setIsMenuOpen(!isMenuOpen)} className='text-center' href='/'>Home</a>
                 <a onClick={() => setIsMenuOpen(!isMenuOpen)} className='text-center' href='#services'>Services</a>
                 <a onClick={() => setIsMenuOpen(!isMenuOpen)} className='text-center' href='#careers'>Careers</a>
